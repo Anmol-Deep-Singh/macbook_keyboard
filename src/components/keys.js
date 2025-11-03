@@ -1,18 +1,18 @@
 export const keys = [
   // Function row
-  { text: "esc", type: "C", w: "w-[82px]" },
-  { text: "F1", type: "A" },
-  { text: "F2", type: "A" },
-  { text: "F3", type: "A" },
-  { text: "F4", type: "A" },
-  { text: "F5", type: "A" },
-  { text: "F6", type: "A" },
-  { text: "F7", type: "A" },
-  { text: "F8", type: "A" },
-  { text: "F9", type: "A" },
-  { text: "F10", type: "A" },
-  { text: "F11", type: "A" },
-  { text: "F12", type: "A" },
+  { text: "esc", type: "C", w: "w-[82px]" ,pos: "left"},
+  { text: "F1", type: "B" },
+  { text: "F2", type: "B" },
+  { text: "F3", type: "B" },
+  { text: "F4", type: "B" },
+  { text: "F5", type: "B" },
+  { text: "F6", type: "B" },
+  { text: "F7", type: "B" },
+  { text: "F8", type: "B" },
+  { text: "F9", type: "B" },
+  { text: "F10", type: "B" },
+  { text: "F11", type: "B" },
+  { text: "F12", type: "B" },
   { type: "power" },
 
   // Number row
@@ -29,10 +29,10 @@ export const keys = [
   { text: "0", image: ")", type: "B" },
   { text: "-", image: "_", type: "B" },
   { text: "=", image: "+", type: "B" },
-  { text: "delete", type: "C", w: "w-[82px]" },
+  { text: "delete", type: "C", w: "w-[82px]",pos: "right"},
 
   // Q row
-  { text: "tab", type: "C", w: "w-[82px]" },
+  { text: "tab", type: "C", w: "w-[82px]",pos: "left"},
   { text: "Q", type: "A" },
   { text: "W", type: "A" },
   { text: "E", type: "A" },
@@ -48,7 +48,7 @@ export const keys = [
   { text: "\\", image: "|", type: "B" },
 
   // A row
-  { text: "caps lock", type: "C", w: "w-[92px]" },
+  { text: "caps lock", type: "C", w: "w-[92px]" ,pos: "left"},
   { text: "A", type: "A" },
   { text: "S", type: "A" },
   { text: "D", type: "A" },
@@ -60,10 +60,10 @@ export const keys = [
   { text: "L", type: "A" },
   { text: ";", image: ":", type: "B" },
   { text: "'", image: "\"", type: "B" },
-  { text: "return", type: "C", w: "w-[94px]" },
+  { text: "return", type: "C", w: "w-[94px]" ,pos: "right"},
 
   // Z row
-  { text: "shift", type: "C", w: "w-[120px]" },
+  { text: "shift", type: "C", w: "w-[120px]",pos: "left"},
   { text: "Z", type: "A" },
   { text: "X", type: "A" },
   { text: "C", type: "A" },
@@ -74,14 +74,14 @@ export const keys = [
   { text: ",", image: "<", type: "B" },
   { text: ".", image: ">", type: "B" },
   { text: "/", image: "?", type: "B" },
-  { text: "shift", type: "C", w: "w-[120px]" },
+  { text: "shift", type: "C", w: "w-[120px]" ,pos: "right"},
 
   // Bottom row (with images)
-  { text: "fn", image: "🌐", type: "D", w: "w-[50px]" },
+  { text: "o", image: "fn", type: "D", w: "w-[50px] text-left" },
   { text: "control", image: "⌃", type: "D", w: "w-[50px]" },
   { text: "option", image: "⌥", type: "D", w: "w-[50px]" },
   { text: "command", image: "⌘", type: "D", w: "w-[66px]" },
-  { text: "", image: "", type: "D", w: "w-[264px]" },
+  { text: "", image: "", type: "D", w: "w-[266px]" },
   { text: "command", image: "⌘", type: "E", w: "w-[66px]" },
   { text: "option", image: "⌥", type: "E", w: "w-[50px]" },
   { type: "arrow" },

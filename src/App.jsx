@@ -1,13 +1,14 @@
 import React from 'react'
+import { UserProvider } from './util/contextapi'
 import Keyboard from './components/Keyboard'
 
-const App = () => {
+function App(){
   return (
-    <>
+    <UserProvider>
       <div className='flex justify-center items-center bg-black w-full h-screen'>
-        <Keyboard/>
+        <Keyboard />
       </div>
-    </>
+    </UserProvider>
   )
 }
 
